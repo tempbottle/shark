@@ -1,0 +1,1 @@
+/usr/bin/c++    -fPIC -O3 -DNDEBUG    CMakeFiles/Version.dir/Core/Version.cpp.o  -o bin/Version -rdynamic -lboost_system -lboost_date_time -lboost_filesystem -lboost_program_options -lboost_signals -lboost_serialization -lboost_thread -lboost_unit_test_framework -lpthread -lpthread 

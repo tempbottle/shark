@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/lib/shark/Shark/src/Core/Version.cpp
+shark/Core/Shark.h
+-
+iostream
+-
+
+include/shark/Core/Shark.h
+boost/version.hpp
+-
+boost/static_assert.hpp
+-
+boost/assign.hpp
+-
+boost/config.hpp
+-
+boost/property_tree/ptree.hpp
+-
+boost/property_tree/json_parser.hpp
+-
+iostream
+-
+map
+-
+string
+-
+
